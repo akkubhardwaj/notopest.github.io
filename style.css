@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-right {
+    padding-right: 30px;
+}
+
+.phone {
+    color: #12345c !important;
+}
+
+.call {
+    color: #f68d2e;
+    font-size: 25px !important;
+}
+
+.back {
+    background: #12345c;
+    padding: 10px 0px;
+}
+
+.banner {
+    width: 100%;
+    height: 650px;
+    background: url(images/banner.png) !important;
+    background-repeat: no-repeat !important;
+}
+
+.keep {
+    max-width: 520px;
+    font-family: 'Lato', sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+}
+
+.keep span {
+    color: #f68d2e !important;
+}
+
+.ph {
+    margin-right: 10px;
+}
+
+.btn {
+    width: 50%;
+    margin-top: 20px !important;
+    background: #f8851f !important;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    background: #f68d2e;
+    border-radius: 60px;
+}
+
+.para {
+    line-height: 30px;
+}
+
+.box {
+    flex-direction: column !important;
+}
+
+.services {
+    color: #f68d2e;
+}
+
+.btnn {
+    width: 80%;
+    margin-top: 20px !important;
+    background: #f8851f !important;
+}
+
+.pic {
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+}
+
+.space {
+    line-height: 30px;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+}
+
+.gap {
+    justify-content: space-evenly !important;
+}
+
+.btnnn {
+    width: 40%;
+    margin-right: 20px !important;
+    background: #f8851f !important;
+}
+
+.back-1 {
+    margin-top: 60px;
+    background: #f8851f !important;
+    padding: 10px 0px;
+}
+
+.back-2 {
+    background: #12345c;
+    /* padding: 10px 0px; */
+}
+
+.sh {
+    text-shadow: 0px 1px 10px #000000;
+}
+
+
+
+
+
+@media screen and (max-width: 929px) {
+    .res {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pic {
+        margin-top: 20px;
+        max-width: 200px;
+        height: 200px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+
+    .banner {
+        background: linear-gradient(4deg, rgb(20 18 20) 30%, rgb(8 8 8 / 75%) 45%, rgba(232, 120, 12, 0.3) 100%),
+            url(images/banner.png) !important;
+
+    }
+    .keep {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+
+}
